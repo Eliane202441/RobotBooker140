@@ -96,3 +96,4 @@ Delete Booking
     ${response}    DELETE    url=${url}/booking/${booking_id}    headers=${headers}    
 
     Status Should Be    201
+    
